@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title></title>
+
+	<!--=====================================
+	PLUGINS DE CSS
+	======================================-->
+
+	<!-- FUENTES -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet"> 
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Chewy|Open+Sans:300,400" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+
+	<!-- JdSlider -->
+	<!-- https://www.jqueryscript.net/slider/Carousel-Slideshow-jdSlider.html -->
+	<link rel="stylesheet" href="css/plugins/jquery.jdSlider.css">
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--=====================================
+	PLUGINS DE JS
+	======================================-->
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+	<!-- JdSlider -->
+	<!-- https://www.jqueryscript.net/slider/Carousel-Slideshow-jdSlider.html -->
+	<script src="js/plugins/jquery.jdSlider-latest.js"></script>
+	
+	<!-- pagination -->
+	<!-- http://josecebe.github.io/twbs-pagination/ -->
+	<script src="js/plugins/pagination.min.js"></script>
+
+	<!-- scrollorama -->
+	<!-- http://johnpolacek.github.io/superscrollorama/ -->
+	<script src="js/plugins/jquery.superscrollorama.js"></script>
+	<script src="js/plugins/TweenMax.min.js"></script>
+
+	<!-- scrollup -->
+	<!-- https://markgoodyear.com/labs/scrollup/ -->
+	<!-- https://easings.net/es# -->
+	<script src="js/plugins/scrollUP.js"></script>
+	<script src="js/plugins/jquery.easing.js"></script>
+
+</head>
+
+<body>
+
+<!--=====================================
+CABECERA
+======================================-->
+<header class="container-fluid">
+
+	<div class="container">
+
+		<div class="row">
+
+			<!-- MARCA PERSONAL -->
+
+			<div class="col-12 col-sm-12 col-md-8 col-lg-7 pt-5 pt-lg-3 p-xl-0">
+
+				<a href="index.html">
+
+					<img src="img/marca_presonal5.png" alt="Marca personal Luis Amortegui" class="img-fluid logo">
+
+				</a>
+
+				<a href="index.html">
+
+					<img src="img/nombre-01.png" class="img-fluid nombreLogo">
+
+				</a>
+
+			</div>
+
+			<!-- REDES SOCIALES -->
+
+			<div class="d-none d-md-block col-md-2 col-lg-3 redes pt-3">
+
+				<ul class="d-flex justify-content-end">
+
+					<li>
+
+						<a href="https://www.facebook.com/profile.php?id=100090663481989" target="_blank">
+
+							<i class="fab fa-facebook-f lead rounded-circle m-1"></i>
+
+						</a>
+
+					</li>
+
+					<li>
+
+						<a href="https://www.linkedin.com/in/luis-hernando-murcia-amortegui-417b521bb/" target="_blank">
+
+							<i class="fab fa-linkedin lead rounded-circle m-1"></i>
+
+						</a>
+
+					</li>
+
+					<li>
+
+						<a href="" target="_blank">
+
+							<i class="fab fa-twitter lead rounded-circle m-1"></i>
+
+						</a>
+
+					</li>
+
+					<li>	
+
+						<a href="https://www.youtube.com/channel/UCUeZpd8OeWTCCyeelty72ig" target="_blank">
+
+							<i class="fab fa-youtube lead rounded-circle m-1"></i>
+
+						</a>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</header>
+
+<!--=====================================
+BANNER
+======================================-->
+
+<div class="bannerEstatico"></div>
+
+<div class="container-fluid p-0">
+
+	<section class="jd-slider fade-slider">
+		
+		<div class="slide-inner">
+			
+			<ul class="slide-area">
+				
+				<li>
+					
+					<img src="img/banner01.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+
+				</li>
+
+				<li>
+					
+					<img src="img/banner02.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+
+				</li>
+
+				<li> 
+					
+					<img src="img/banner03.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+
+				</li>
+
+				<li>
+					
+					<img src="img/banner04.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+
+				</li>
+
+			</ul>
+
+		</div> 
+
+		<div class="controller d-none">
+			
+			<a class="auto" href="#">
+				
+				<i class="fas fa-play fa-xs"></i>
+				<i class="fas fa-pause fa-xs"></i>
+
+			</a>
+
+			<div class="indicate-area"></div>
+
+		</div>
+
+	</section>
+
+</div>
+
+<!--=====================================
+CONTENIDO BLOG
+======================================-->
+
+
+
+<div class="container-fluid py-2 py-md-5 bg-white grid">
+
+
+	<div class="container-fluid d-flex">
+
+		<div class="container text-center">
+
+			<div class="container texto">
+
+				<h1>Patrón cliente - servidor</h1>
+
+			</div>	
+
+		</div>
+		
+	</div>
+
+	<div class="d-flex">
+
+		<div class="d-flex flex-column parrafoInicial">
+
+
+			<p class="text-justify-1">Podemos visualizar fácilmente del modelo cliente - servidor cuando el usuario habré una página desde el navegador, en las cuales actúan una serie de procesos internos que están codificados con diferentes lenguajes de programación, etiquetas HTML y estilos CSS, los cuales una persona no puede ver per si se están compilando y ejecutando, a continuación, veremos se explicara con mayor detalle el frontend y backend, los lenguajes que existen para estos propósitos y las diferentes características.</p>
+
+		</div>
+
+	</div>
+
+	<!-- CONTENIDO PRIMER PARRAFO -->
+
+	<div class="d-flex">
+
+		
+
+		<div class="d-flex flex-column columna1">
+			
+			<div class="p-2 photo1">
+					
+				<p class="p-1 p-md-3 p-xl-4 text-justify-2"><b>BASES DE DATOS</b><br></br>En cuanto a las bases de datos tenemos tanto las bases relacionales y no relacionales, entre los diferentes BD podemos encontrar SQL Lite, Cassandra, MySQL, mongo DB, ORACLE. En cuanto a las bases de datos relacionales tienen un mayor soporte ya que llevan mucho más tiempo el mercado, están formadas por tablas que contienen campos estructurados, entre más compleja sea más procesamiento necesitara. En cuanto a las bases no relacionales, la consulta para una gran cantidad de datos se optimiza, el almacenamiento no es estructurado permitiendo gran escalabilidad, no se necesitan tantos recursos para ejecutarse a diferencia de las relacionales que si las necesitan.</p>
+
+			</div>
+
+	
+			</div>
+
+			<!-- BLOQUE DOS -->
+
+			<div class="d-flex flex-column flex-fill columna2">
+
+				<div class="d-block d-md-flex heightCaja2">
+
+					<img src="img/bases_de_datos.jpeg" class="img-fluid imgBD">
+
+				</div>
+
+			</div>
+
+	</div>
+
+	<hr class="rounded1">
+
+	<!-- CONTENIDO SEGUNDO PARRAFO -->
+
+	<div class="d-flex">
+
+		
+
+		<div class="d-flex flex-column columna1">
+			
+			<div class="p-2 photo1">
+					
+				<p class="p-1 p-md-3 p-xl-4 text-justify-2"><b>BACKEND</b><br></br>El backend es el lenguaje de todo desarrollador de software, es lo que el usuario no puede ver y en la mayoria de los casos no lo pueden entender. En la practica se le conoce como el codigo de programacion que corre en los servidores, las cuales procesan los datos mediante periciones, las cuales en su mayoria estan programadas en API REST, las cuales se encargan de conectarsen con las bases de datos, programando en gran medida en el lado del servidor </p>
+
+			</div>
+
+	
+			</div>
+
+			<!-- BLOQUE DOS -->
+
+			<div class="d-flex flex-column flex-fill columna2">
+
+				<div class="d-block d-md-flex heightCaja4">
+
+
+					<img src="img/backend.png" class="img-fluid imgBE">
+
+
+				</div>
+
+			</div>
+
+	</div>
+
+	<hr class="rounded1">
+
+
+
+	<!-- CONTENIDO TERCER PARRAFO -->
+
+	<div class="d-flex">
+
+		
+
+		<div class="d-flex flex-column columna1">
+			
+			<div class="p-2 photo1">
+					
+				<p class="p-1 p-md-3 p-xl-4 text-justify-2"><b>FRONTEND</b><br></br>Se relaciona con todo lo que ven las personas, esto incluye el diseño (bien sea UI o UX) y ciertos lenguajes.
+				Además, destaca por su característica funcional, pues sirve para que el usuario entre e interactúe con cualquier sitio. Motivo por el que debe cumplir con altos estándares de usabilidad y estética.
+				Podemos decir que el Front-end es la capa que se encuentra por encima del Back-end, ya que comprende menús desplegables, imágenes, íconos, colores, elementos gráficos, animaciones y, sin lugar a dudas, mejora la experiencia de navegación en el lado delantero o frontal.
+				Quienes desarrollan el Front-end son responsables del código orientado a la inmersión del sujeto en el sitio.</p>
+
+			</div>
+
+	
+			</div>
+
+			<!-- BLOQUE DOS -->
+
+			<div class="d-flex flex-column flex-fill columna2">
+
+				<div class="d-block d-md-flex heightCaja5">
+
+
+					<img src="img/frontend.png" class="img-fluid imgFE">
+
+
+				</div>
+
+			</div>
+
+	</div>
+
+	<hr class="rounded1">
+
+	<!-- CONTENIDO CUARTO PARRAFO -->
+
+	<div class="d-flex">
+
+		
+
+		<div class="d-flex flex-column columna1">
+			
+			<div class="p-2 photo1">
+					
+				<p class="p-1 p-md-3 p-xl-4 text-justify-2"><b>SERVIDOR</b><br></br>En el software se ejecuta todo el backend, todo el desarrollo que tiene la lógica y las peticiones a las bases de datos, serán ejecutadas en el software del lado del servidor. Entre los servidores más populares y usados están NGINX, APACHE, NODE. Servidor toma la URL a la cual el usuario está solicitando la información o consulta, la cual, mediante un puerto definido por el desarrollador del servidor, será mostrada la información por lo general el puerto más utilizado para practicas es el puerto 80.</p>
+
+			</div>
+
+	
+			</div>
+
+			<!-- BLOQUE DOS -->
+
+			<div class="d-flex flex-column flex-fill columna2">
+
+				<div class="d-block d-md-flex heightCaja5">
+
+
+					<img src="img/server.png" class="img-fluid imgFE">
+
+
+				</div>
+
+			</div>
+
+	</div>
+
+	<hr class="rounded1">
+
+	<!-- CONTENIDO QUINTO PARRAFO -->
+
+	<div class="d-flex">
+
+		
+
+		<div class="d-flex flex-column columna1">
+			
+			<div class="p-2 photo1">
+					
+				<p class="p-1 p-md-3 p-xl-4 text-justify-2"><b>STACK</b><br></br>El significado de STACK es pila, son todos los paquetes de programación los cuales fueron desarrollados en su momento por el esquipo de desarrolladores para el backend, al ser un sistema de paquetes comprende la lógica de forma ordenada, por módulos y orientado a objetos. El STACK más popular es LAMP, el cual su significado es sistema operativo Linux, servidor Apache, base de datos MySQL y PHP, Existen diferentes tipos de stack, entre los cuales se encuentran MEAN Stacks, MERN Stacks, MEVN Stacks, LAMP Stacks. La funcionalidad consiste en enviar la URL al servidor, la cual mediante la DNS será transformada en una dirección IP, se conectará con el servidor en referencia a la URL, pasara por el backend, tomara la información de la base de datos y enviará todo al forntend para que el usuario pueda ver la información consultada.</p>
+
+			</div>
+
+	
+			</div>
+
+			<!-- BLOQUE DOS -->
+
+			<div class="d-flex flex-column flex-fill columna2">
+
+				<div class="d-block d-md-flex heightCaja5">
+
+
+					<img src="img/stack.JPG" class="img-fluid imgFE">
+
+
+				</div>
+
+			</div>
+
+	</div>
+
+	<hr class="rounded2">
+
+</div>
+
+
+<!-- SECCION DOS -->
+
+
+
+<div class="container-fluid py-2 py-md-5 bg-white grid" style="background: rgb(224, 224, 209);">
+
+
+	<div class="container-fluid d-flex">
+
+		<div class="container text-center">
+
+			<div class="container texto">
+
+				<h1>Patrón MVC (modelo de vista del controlador)</h1>
+
+			</div>	
+
+		</div>
+		
+	</div>
+
+	<div class="d-flex">
+
+		<div class="d-flex flex-column parrafoInicial">
+
+
+			<p class="text-justify-1">En este patrón los datos se clasifican dependiendo de la funcionalidad, como es llamado este patrón, se separa en tres componentes lógicos los cuales interactúan entre si. Por lo general este patrón se utiliza cuando existen diferentes formas de interactuar con los datos. Permite que los datos mostrados cambien de forma independiente, en ocasiones es de gran complejidad cuando los modelos de datos y las interacciones entre ellas son simples.</p>
+
+		</div>
+
+	</div>
+
+	<!-- CONTENIDO PRIMER PARRAFO -->
+
+	<div class="d-flex">
+
+		
+
+		<div class="d-flex flex-column columna1">
+			
+			<div class="p-2 photo1">
+					
+				<p class="p-1 p-md-3 p-xl-4 text-justify-2"><b>CONTROLADOR</b><br></br>En los controladores tenemos la parte lógica del sistema que se encargara de ejecutar las acciones para la ejecución de la lógica del sistema, en los momentos en donde se requiera validar los datos se emplearan técnicas de eventos junto con JavaScipt y AJAX, así poder realizar una validación completa de los datos y manejarlos.</p>
+
+			</div>
+
+	
+			</div>
+
+			<!-- BLOQUE DOS -->
+
+			<div class="d-flex flex-column flex-fill columna2">
+
+				<div class="d-block d-md-flex heightCaja2">
+
+					<img src="img/CONTROLADOR.JPG" class="img-fluid imgBD">
+
+				</div>
+
+			</div>
+
+	</div>
+
+	<hr class="rounded1"> 
+
+	<!-- CONTENIDO SEGUNDO PARRAFO -->
+
+
+	<div class="d-flex">
+
+		
+
+		<div class="d-flex flex-column columna1">
+			
+			<div class="p-2 photo1">
+					
+				<p class="p-1 p-md-3 p-xl-4 text-justify-2"><b>MODELO</b><br></br>Mediante la interaccion de las vistas y el usuario, esta le enviara al controlador las solicitudes para taer de los modelos la informacion de la base de datos, esto a su ves se conectan al servidor, mediante las diferentes peticiones traera la informacion solicitada</p>
+
+			</div>
+
+	
+			</div>
+
+			<!-- BLOQUE DOS -->
+
+			<div class="d-flex flex-column flex-fill columna2">
+
+				<div class="d-block d-md-flex heightCaja4">
+
+
+					<img src="img/modelos.JPG" class="img-fluid imgBE">
+
+
+				</div>
+
+			</div>
+
+	</div>
+
+	<hr class="rounded2">
+
+</div>
+
+
+<!-- SECCION TRES -->
+
+
+
+<div class="container-fluid py-2 py-md-5 bg-white grid" style="background: rgb(224, 224, 209);">
+
+
+	<div class="container-fluid d-flex">
+
+		<div class="container text-center">
+
+			<div class="container texto">
+
+				<h1>Patrón arquitectura en capas</h1>
+
+			</div>	
+
+		</div>
+		
+	</div>
+
+	<div class="d-flex">
+
+		<div class="d-flex flex-column parrafoInicial">
+
+
+			<p class="text-justify-1">En la arquitectura por capas, esta organiza los módulos como su nombre lo indica, por capas, las cuales se relacionan una con otra según su funcionalidad. A la hora de construirse nuevas funcionales, las capas se distribuyen en diferentes capas para cada equipo quien es el encargado de cada funcionalidad. Entre sus ventajas permite sustituir capas completas conservando sus interfaces.</p>
+
+		</div>
+
+	</div>
+
+	<!-- CONTENIDO PRIMER PARRAFO -->
+
+	<div class="d-flex">
+
+		
+
+		<div class="d-flex flex-column columna1">
+			
+			<div class="p-2 photo1">
+					
+				<p class="p-1 p-md-3 p-xl-4 text-justify-2">Podemos tomar como ejemplo un sistema WEB, en el cual la capa superior corresponde a la interfaz gráfica de la página WEB de un sistema de libros, la segunda capa está compuesta por otras tres capas, una que se encarga de la conexión, el gestor formatos y consultas y el gestor de impresiones. En una tercera capa se podrían desarrollar los gestores de derechos, las recuperaciones de documentos, las búsquedas distribuidas entre otras. En la cuarta capa los índices de la biblioteca y por último en la quinta capa la base de datos.</p>
+
+			</div>
+
+	
+			</div>
+
+			<!-- BLOQUE DOS -->
+
+			<div class="d-flex flex-column flex-fill columna2">
+
+				<div class="d-block d-md-flex heightCaja2">
+
+					<img src="img/arquitecturaCapas.JPG" class="img-fluid imgBD">
+
+				</div>
+
+			</div>
+
+	</div>
+
+	<hr class="rounded1"> 
+
+	
+</div>
+
+<!-- SECCION CUATRO -->
+
+
+
+<div class="container-fluid py-2 py-md-5 bg-white grid" style="background: rgb(224, 224, 209);">
+
+
+	<div class="container-fluid d-flex">
+
+		<div class="container text-center">
+
+			<div class="container texto">
+
+				<h1>Patrón arquitectura de repositorio</h1>
+
+			</div>	
+
+		</div>
+		
+	</div>
+
+	<div class="d-flex">
+
+		<div class="d-flex flex-column parrafoInicial">
+
+
+			<p class="text-justify-1">Para este caso cada cliente es independiente de los otros los cuales interactúan con el repositorio, el repositorio se encarga de dar respuesta a las peticiones de cada cliente, en cuanto a los usuarios estos serán los encargados de interactuar con los clientes. Como ejemplo tomaremos un banco, varios usuarios tendrán acceso al repositorio sin tener ningún problema, una vez el repositorio este bien definido se pueden agregar nuevos servicios en forma de subsistemas.</p>
+
+		</div>
+
+	</div>
+
+	<!-- CONTENIDO PRIMER PARRAFO -->
+
+	<div class="d-flex">
+
+		
+
+		<div class="d-flex flex-column columna1">
+			
+			<div class="p-2 photo1">
+					
+				<p class="p-1 p-md-3 p-xl-4 text-justify-2">Entre las ventajas, sus componentes pueden ser independientes no necesitan conocer la existencia de otros componentes, los cambios realizados en un componente se pueden extender a otros componentes, todos los datos de pueden gestionar de una forma más fácil ya que su arquitectura se encuentra en un solo lugar. Entre sus desventajas, se encuentra que por tener un único repositorio las fallas que se presenten afectan todos los clientes, la distribución de sus componentes no diferentes equipos pueden ser compleja.</p>
+
+			</div>
+
+	
+			</div>
+
+			<!-- BLOQUE DOS -->
+
+			<div class="d-flex flex-column flex-fill columna2">
+
+				<div class="d-block d-md-flex heightCaja2">
+
+					<img src="img/arquitecturaRepositorio.JPG" class="img-fluid imgBD">
+
+				</div>
+
+			</div>
+
+	</div>
+
+	<hr class="rounded1"> 
+
+	
+</div>
+
+
+<!-- SECCION QUINTA -->
+
+
+
+<div class="container-fluid py-2 py-md-5 bg-white grid" style="background: rgb(224, 224, 209);">
+
+
+	<div class="container-fluid d-flex">
+
+		<div class="container text-center">
+
+			<div class="container texto">
+
+				<h1>Patrón arquitectura de aplicación </h1>
+
+			</div>	
+
+		</div>
+		
+	</div>
+
+	<div class="d-flex">
+
+		<div class="d-flex flex-column parrafoInicial">
+
+
+			<p class="text-justify-1">Cada empresa cuenta con procesos similares, esto quiere decir, ejemplo si nos fijamos en la operación financiara de una empresa industrial, en cuanto a su contabilidad, la forma de llevar su contabilidad será similar solo cambiaran algunas especificaciones dependiendo del tipo de producto. Es decir, para toda empresa las forma de llevar sus costos es igual, tomar las materias primas, el personal, los insumos, los gastos, los honorarios y todo llevarlo a una base de información que establece el costo, la única diferencia es que en cada empresa los componentes y elementos que componen el conjunto de los costos en algunas será menor y con mayor facilidad de identificar y clasificar, en otras será más compleja y de mayor encapsulamiento para mantener la información real.</p>
+
+		</div>
+
+	</div>
+
+	<!-- CONTENIDO PRIMER PARRAFO -->
+
+	<div class="d-flex">
+
+		
+
+		<div class="d-flex flex-column columna1">
+			
+			<div class="p-2 photo1">
+					
+				<p class="p-1 p-md-3 p-xl-4 text-justify-2">Tomaremos como ejemplo una aplicación WEB con arquitectura de aplicación con el framework Angular, mediante en la interfaz gráfica se presentaran los electos de diseño, los estilos y los eventos, los cuales estarán maquetados con CSS y HTML utilizando Web components, en cuanto al backend se desarrolla con los lenguajes de programación TypeScript de JavaScript para determinar los estados y ejecutar los eventos de frontend previamente maquetado con web components y por ultimo XMLHttpRequest el cual se encargara de los modelos, las conexiones a las bases de datos y puntos de red.</p>
+
+			</div>
+
+	
+			</div>
+
+			<!-- BLOQUE DOS -->
+
+			<div class="d-flex flex-column flex-fill columna2">
+
+				<div class="d-block d-md-flex heightCaja2">
+
+					<img src="img/arquitecturaAplicacion.JPG" class="img-fluid imgBD">
+
+				</div>
+
+			</div>
+
+	</div>
+
+	<hr class="rounded1"> 
+
+	
+</div>
+
+<!--=============================================
+SECCION FOOTER
+=============================================-->
+
+<footer class="footer">
+
+	<p>Luis Hernando Murcia Amortegui 2023 © Copyright</p>
+
+	<div id="redes" style="margin-top: 10px;">
+
+		<ul class="d-flex justify-content-center redesFooter">
+
+			<li>
+
+					<a href="" target="_blank">
+
+						<i class="fab fa-facebook-f lead rounded-circle m-1"></i>
+
+					</a>
+
+				</li>
+
+				<li>
+
+					<a href="https://www.linkedin.com/in/luis-hernando-murcia-amortegui-417b521bb/" target="_blank">
+
+							<i class="fab fa-linkedin lead rounded-circle m-1"></i>
+
+					</a>
+
+				</li>
+
+				<li>
+
+					<a href="" target="_blank">
+
+						<i class="fab fa-twitter lead rounded-circle m-1"></i>
+
+					</a>
+
+				</li>
+
+				<li>	
+
+					<a href="https://www.youtube.com/channel/UCUeZpd8OeWTCCyeelty72ig" target="_blank">
+
+						<i class="fab fa-youtube lead rounded-circle m-1"></i>
+
+					</a>
+
+				</li>
+
+		</ul>
+
+		
+
+	</div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

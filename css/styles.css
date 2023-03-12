@@ -1,0 +1,283 @@
+*
+{
+	font-family: 'Open Sans', sans-serif; 	/*font-family: 'Chewy', cursive;*/
+}
+
+ul, ol 
+{
+	list-style:none;          
+} 	
+
+a:visited, a:link, a:focus, a:hover, a:active  
+{
+	list-style:none;
+	text-decoration: none;
+}
+
+/*=============================================
+HEADER
+=============================================*/ 
+
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+header .logo
+{
+	width: 10%;
+}
+
+header .logo:hover
+{
+	filter: invert(100%);
+}
+
+header .nombreLogo
+{
+	width: 45%;
+}
+
+.redes ul li i
+{
+	width: 35px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.redes ul li i.fa-facebook-f
+{
+	background: black;
+	color: white;
+}
+
+.redes ul li i.fa-facebook-f:hover
+{
+	background: white;
+	color: black;
+}
+
+.redes ul li i.fa-linkedin
+{
+	background: black;
+	color: white;
+}
+
+.redes ul li i.fa-instagram:hover
+{
+	background: white;
+	color: black;
+}
+
+.redes ul li i.fa-twitter
+{
+	background: black;
+	color: white;
+}
+
+.redes ul li i.fa-twitter:hover
+{
+	background: white;
+	color: black;
+}
+
+.redes ul li i.fa-youtube
+{
+	background: black;
+	color: white;
+}
+
+.redes ul li i.fa-youtube:hover
+{
+	background: white;
+	color: black;
+}
+
+.fa-bars
+{
+	color: black;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+.fa-bars:hover
+{
+	color: white;
+}
+
+/*=============================================
+HEADER - OPCIONES
+=============================================*/ 
+
+header .contenido-header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+header .contenido-header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 12px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+header .contenido-header nav ul li a:hover {
+  color: #00ffff;
+}
+
+/*=============================================
+BANNER
+=============================================*/ 
+
+.container-fluid .fade-slider
+{
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.bannerEstatico
+{
+	background: rgba(0, 0, 0,0);
+}
+
+/*=============================================
+CONTENIDO DEL BLOG
+=============================================*/ 
+
+section div div.container div.texto
+{
+	margin-top: 30px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+
+section div p.cuerpoTexto
+{
+	margin-top: 30px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+.grid div.parrafoInicial
+{
+	margin-top: 30px;
+}
+
+.grid div
+{
+	position: relative;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+
+.grid .columna1
+{
+	width: 70%;
+	margin-top: 2px;
+
+}
+
+
+.grid .columna2 .heightCaja2
+{
+	margin-top: 10px;
+}
+
+.grid .columna2 .heightCaja3
+{
+	margin-top: 10px;
+}
+
+
+p.text-justify-1
+{
+	text-align: justify;
+}
+
+p.text-justify-2
+{
+	height: 200px;
+	text-align: justify;
+}
+
+/* Rounded border */
+hr.rounded1
+{
+  border-top: 1px solid #bbb;
+  border-radius: 1px;
+}
+
+/* Rounded border */
+hr.rounded2
+{
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+
+/*=============================================
+SLIDER CAJA 3
+=============================================*/
+
+div.heightCaja2 .imgBD
+{
+	height: 250px;
+	width: 400px;
+}
+
+div.heightCaja4 .imgBE
+{
+	height: 250px;
+	width: 400px;
+	margin-top: 10px;
+	border
+}
+
+div.heightCaja5 .imgFE
+{
+	height: 250px;
+	width: 400px;
+	margin-top: 10px;
+	border
+}
+
+/* Rounded border */
+hr.rounded2
+{
+  border-top: 1px solid #bbb;
+  border-radius: 1px;
+}
+
+/* *********************/
+/* seccion F O O T E R */
+/* *********************/
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a 
+{
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin: 5px;
+  font-size: 15px;
+}
+
+
